@@ -8,7 +8,11 @@ module.exports = {
         // mediator
         'js/mediator/index.vue',
         // home
-        'js/pages/App.vue'
+        'js/pages/App.vue',
+        //tabBar
+        'js/pages/tabbr/leftItem.vue',
+        'js/pages/tabbr/middleItem.vue',
+        'js/pages/tabbr/rightItem.vue'
     ],
     'alias': {
         'Components': 'js/components',

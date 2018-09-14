@@ -27,5 +27,36 @@ module.exports = {
         'appId': '',
         'appKey': '',
         'appSecret': ''
+    },
+    tabBar: {
+        color: '#777777',
+        selectedColor: '#00b4cb',
+        backgroundColor: '#fafafa',
+        borderColor: '#dfe1eb',
+        list: [{
+                pagePath: '/pages/tabbr/leftItem.js',
+                text: '消息',
+                icon: 'bmlocal://assets/TabBar_left@2x.png',
+                selectedIcon: 'bmlocal://assets/TabBar_left_Selected@2x.png',
+                navShow: 'true',
+                navTitle: "消息"
+            },
+            {
+                pagePath: '/pages/tabbr/middleItem.js',
+                text: '工作',
+                icon: 'bmlocal://assets/TabBar_middle@2x.png',
+                selectedIcon: 'bmlocal://assets/TabBar_middle_Selected@2x.png',
+                navShow: 'true',
+                navTitle: '工作'
+            },
+            {
+                pagePath: '/pages/tabbr/rightItem.js',
+                text: '个人中心',
+                icon: 'bmlocal://assets/TabBar_right@2x.png',
+                selectedIcon: 'bmlocal://assets/TabBar_right@2x_Selected@2x.png',
+                navShow: 'true',
+                navTitle: '我的'
+            }
+        ]
     }
 }
